@@ -1,10 +1,7 @@
-# Welcome to the MCP Hosting Working Group
+This working group is hosted by @Joffref 
 
-There are our current topics:
+----
 
-Contact @
-
--
 # **MCP Hosting Working Group (WG) – Vision & Roadmap**
 
 This document is intended as a preliminary proposal and does not represent an official statement or policy of any organization.
