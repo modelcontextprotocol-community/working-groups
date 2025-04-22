@@ -31,26 +31,26 @@ Working Groups normally have 2 complimentary goals:
 
 ### Current Working Groups
 
-- **Hosting**: ([wg/host](wg/host)) Exploring deployment, scaling, and infrastructure considerations
-- **Agents**: Focused on interaction patterns between agents using MCP
-- **Authorization**: Addressing security and access control within MCP implementations
-- **Search, Tools, Emerging Topics** ([wg/misc]) Focussed discussions on Protocol ideas and changes .
+- **Hosting**: ([wg/host](wg/host)) Exploring deployment, scaling, and infrastructure considerations.
+- **Agents**: Focused on interaction patterns between agents using MCP.
+- **Authorization**: Addressing security and access control within MCP implementations.
+- **Search, Tools, Emerging Topics** ([wg/misc]) Focussed discussions on Protocol ideas and changes.
 
-## Taxonomy
+## Working with the Model Context Protocol
 
 MCP serves as an enabler for innovative LLM application development, providing interoperability without being prescriptive about application design. The protocol consists of four main components:
 
 1. The [specification](https://modelcontextprotocol.io/specification/2025-03-26), defining the Protocol and Transports.
 2. [Reference SDKs](https://modelcontextprotocol.io/sdk/java/mcp-overview) that implement the Protocol and Transports to help developers build interoperable solutions.
 3. Supporting resources such as User Guides, Tutorials, Debugging Tools and Reference Applications.
-4. Working Group artefacts - implementation patterns, configuration guides, and other community-developed resources.
+4. Working Group artifacts - implementation patterns, configuration guides, and other community-developed resources.
 
 Each component serves a different purpose:
 
 - The specification provides the foundational interoperability layer
 - Reference SDKs bridge the specification to language-specific implementations
 - Supporting resources facilitate adoption and implementation
-- Working Group artefacts enable experimentation and innovation
+- Working Group artifacts enable experimentation and innovation
 
 This layered approach allows MCP to provide standardization where needed while encouraging innovation and flexibility in application design. Working Groups play a crucial role in balancing these priorities, contributing to all layers while respecting their different purposes and impact scopes.
 
@@ -72,7 +72,7 @@ The barrier for specification changes is intentionally high due to the cascading
 | **Reference SDKs - Specification Alignment**       | When necessary to maintain compliance with specification changes or to implement standardized patterns across all SDK languages                                   | High - requires strict adherence to the specification, interoperability testing and cross-SDK consistency       |
 | **Reference SDKs - Language-Specific Innovations** | When implementing idiomatic patterns, optimizations, or extensions that improve developer experience within a specific language ecosystem                         | Medium - requires demonstrated utility within the language community while maintaining specification compliance |
 | **Supporting Resources**                           | To improve onboarding experience, clarify implementation guidance, or document new patterns that emerge from the community                                        | Medium - requires validation from multiple implementers                                                         |
-| **Working Group Artefacts**                        | To share emerging patterns, experimental approaches, and implementation guidance that may eventually influence higher layers                                      | Low - encourages innovation and collaboration                                                                   |
+| **Working Group artifacts**                        | To share emerging patterns, experimental approaches, and implementation guidance that may eventually influence higher layers                                      | Low - encourages innovation and collaboration                                                                   |
 
 Working Groups should assess whether a proposed change is best suited as:
 
@@ -80,15 +80,40 @@ Working Groups should assess whether a proposed change is best suited as:
 - A Reference SDK specification alignment change (high impact, high barrier)
 - A Reference SDK language-specific innovation (high impact, medium barrier)
 - A Supporting Resource update (medium impact, medium barrier)
-- Working Group artefact (lowest impact, lowest barrier)
+- Working Group artifact (lowest impact, lowest barrier)
 
 Working groups should favor evolutionary improvement through:
 
-- Establishing patterns in Working Group artefacts first
+- Establishing patterns in Working Group artifacts first
 - Implementing and testing approaches before updating Supporting Resources
 - Promoting to Reference SDKs as language-specific innovations after demonstrated value within a language ecosystem
 - Standardizing successful language-specific innovations across all Reference SDKs when proven valuable in multiple contexts
 - Inclusion in the specification only when proven essential for ecosystem interoperability
+
+## Working Group Conduct
+
+Working Groups have open membership, and often span multiple topics. We want to make sure that all who wish to contribute have the right forums and opportunities to do so.
+
+The ground rules are intended to facilitate this without being too formal.
+
+### Working Groups and Topic Areas
+
+Working Groups provide the organizational structure, while Topic Areas represent specific problems being addressed:
+
+- **Working Groups** maintain continuity for a general domain of MCP implementation.
+- **Topic Areas** form when members focus on specific challenges or interests within that domain.
+- Participants in a Topic Area directly shape how it operates
+- Working Groups provide coordination and resources to support Topic Areas
+
+Example: The Hosting Working Group contains Topic Areas like "Multi-Tenancy" and "Scaling Patterns," each with their own participation and cadence based on current implementation needs.
+
+#### Examples:
+
+| Topic Area                          | Typical Approach                                           | Community Focus                                                  |
+| ----------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------- |
+| Agent Interaction Patterns          | Exploratory research with proof-of-concept implementations | Understanding emerging patterns before standardization           |
+| Regulatory Compliance Requirements  | Structured development with defined milestones             | Meeting industry deadlines while ensuring protocol compatibility |
+| Container Deployment Configurations | Collaborative documentation of tested implementations      | Sharing practical hosting solutions across environments          |
 
 ### Decision Making
 
@@ -98,32 +123,6 @@ Working groups should aim for consensus-driven decisions:
 - "Yes, and..." approaches over "No, but..." resistance
 - Experimentation is preferred over speculation: demonstrate capabilities rather than debate theoretical approaches
 - Clearly identify goals for topic areas (e.g. is the aim to agree common patterns, or change the spec?)
-
-## Working Group Conduct
-
-Working Groups have open membership, and often span multiple topics. We want to make sure that all who wish to contribute have the right forums and opportunities to do so.
-
-The ground rules are intended to facilitate this without being too formal.
-
-### Topic Areas
-
-Working Groups typically cover a range of related topics. For example, the "Hosting" group may examine "Multi-Tenancy," "Transport Configuration," "Scaling Patterns," and more.
-
-Topic areas naturally develop different characteristics based on community needs and participant expertise:
-
-- **Varying Structure**: Some Topic Areas may choose more formal processes to meet industry deadlines or compliance requirements, while others thrive with exploratory approaches and proof-of-concept experimentation.
-
-- **Community-Driven Priorities**: The urgency, depth, and focus given to each topic reflects the interests and contributions of active participants.
-
-This diversity of approaches enables the community to address both immediate implementation challenges and longer-term protocol evolution simultaneously.
-
-#### Examples:
-
-| Topic Area                          | Typical Approach                                           | Community Focus                                                  |
-| ----------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------- |
-| Agent Interaction Patterns          | Exploratory research with proof-of-concept implementations | Understanding emerging patterns before standardization           |
-| Regulatory Compliance Requirements  | Structured development with defined milestones             | Meeting industry deadlines while ensuring protocol compatibility |
-| Container Deployment Configurations | Collaborative documentation of tested implementations      | Sharing practical hosting solutions across environments          |
 
 ### Process vs Content
 
@@ -202,12 +201,10 @@ Multiple voices from a single entity have less weight than single voices from mu
 
 Working groups enable diverse participation through multiple contribution channels:
 
-- Working group artefacts are stored within this repository.
+- Working group artifacts are stored within this repository.
 - Members are expected to contribute to these repositories asynchronously, allowing for participation regardless of time zone or availability for meetings
 - For synchronous meetings (videoconference or in-person), facilitators commit to present written representations from those who cannot attend (assuming agreement in advance due to circumstances). This practice respects different timezones and circumstances, and is offered as a collaborative courtesy rather than a formal service.
 - The community [Discord](https://discord.gg/RkqKnmrp) offers a fast way to ask questions, or discuss topic items in real-time.
-
-## The Ideal Facilitator
 
 ### The Ideal Topic Facilitator
 
