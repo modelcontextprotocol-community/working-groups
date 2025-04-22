@@ -148,7 +148,7 @@ Working Group activities are separated into two distinct types of discussions:
 | Coordinating the roadmap for specification change proposals         | Designing patterns for error handling across transport types     |
 | Agreeing timelines and expected outputs for the working group       | Evaluating proposed protocol extensions with proof-of-concept    |
 
-Each topic area should nominate a [_Facilitator_](#the-ideal-topic-facilitator) to help arrange necessary meetings and coordinate group discussions. Facilitators ensure that:
+Topic Area [facilitators](#the-ideal-topic-facilitator) help arrange necessary meetings and coordinate group discussions. Facilitators ensure that:
 
 - Meetings have clear agendas
 - Technical discussions have dedicated space
