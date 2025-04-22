@@ -1,10 +1,10 @@
 # Welcome to the MCP Community Working Groups
 
-![MCPWGLogo](images/mcp-wg-icon_small.png)
+<!-- ![MCPWGLogo](images/mcp-wg-icon_small.png) -->
 
 Welcome to the MCP Community Working Group Repository.
 
-[TODO - add friendlier welcome text]
+<!-- [TODO - add friendlier welcome text] -->
 
 > [!NOTE]
 > This repository is for Community Working Group Collaboration. Questions and Discussions on the MCP should be conducted in the appropriate [Model Context Protocol Repository](https://github.com/modelcontextprotocol) repository.
