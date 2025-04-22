@@ -105,7 +105,7 @@ Working Groups have open membership, and often span multiple topics. We want to 
 
 The ground rules are intended to facilitate this without being too formal.
 
-[TODO] -- Short note here about basics e.g. Each w.g. has a regular co-ordination meeting, sub-topics free to organise as appropriate with different approaches and timescales. WG has a "host" and facilitators. Add guide about facilitator volunteering and selection.
+[TODO] -- Short note here about basics e.g. Each w.g. has a regular co-ordination meeting, sub-topics free to organise as appropriate with different approaches and timescales. WG has a "host" and [facilitators](#the-ideal-topic-facilitator). Add guide about facilitator volunteering and selection.
 
 ### Process vs Content
 
@@ -192,6 +192,16 @@ Working groups enable diverse participation through multiple contribution channe
 - Members are expected to contribute to these repositories asynchronously, allowing for participation regardless of time zone or availability for meetings
 - For synchronous meetings (videoconference or in-person), facilitators commit to present written representations from those who cannot attend (assuming agreement in advance due to circumstances). This practice respects different timezones and circumstances, and is offered as a collaborative courtesy rather than a formal service.
 - The community [Discord](https://discord.gg/RkqKnmrp) offers a fast way to ask questions, or discuss topic items in real-time.
+
+## The Ideal Facilitator
+
+### The Ideal Topic Facilitator
+
+- Has time to dedicate to summarizing and organizing information, welcoming new members, and guiding contributors to the topic area.
+- Uses techniques to maintain fair participation and encourage group progress (e.g., focus Interests vs. Positions, balancing Inquiry/Advocacy, Decision Making techniques).
+- Balance personal investment with fair guidance: If you have strong views on a particular outcome, consider how you'll maintain neutrality while facilitating group discussions.
+
+If this sounds like you—or something you'd like to try—get in touch!
 
 ---
 
