@@ -29,7 +29,7 @@ Working Groups normally have 2 complimentary goals:
 1. To propose changes to the MCP Specification that benefit the wider community.
 
 > [!IMPORTANT]
-> All working group members must adhere to the MCP [Code of Conduct](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/CODE_OF_CONDUCT.md)
+> All participants within the Working Group agree to the [MCP Code of Conduct](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/CODE_OF_CONDUCT.md)
 
 ### Current Working Groups
 
