@@ -58,14 +58,6 @@ Working Groups have open membership, and often span multiple topics. We want to 
 
 The ground rules are intended to facilitate this without being too formal.
 
-### Participation and Contributions
-
-Working groups enable diverse participation through multiple contribution channels:
-
-- Working group artefacts are stored within the Working Group Github Repository.
-- Members are expected to contribute to these repositories asynchronously, allowing for participation regardless of time zone or availability for meetings
-- For synchronous meetings (videoconference or in-person), facilitators commit to present written representations from those who cannot attend (assuming agreement in advance due to circumstances). This practice respects different timezones and circumstances, and is offered as a collaborative courtesy rather than a formal service.
-
 ### Process vs Content
 
 Working Group activities are separated into two distinct types of discussions:
@@ -142,6 +134,15 @@ Working groups benefit from open sharing of expertise and experience, but should
 Multiple voices from a single entity have less weight than single voices from multiple entities.
 
 > Example: A large team from _Galactic Hosting Corporation_ joining a working group meeting to advocate a specific position, leaving no room for others to speak.
+
+### Participation and Contributions
+
+Working groups enable diverse participation through multiple contribution channels:
+
+- Working group artefacts are stored within this repository.
+- Members are expected to contribute to these repositories asynchronously, allowing for participation regardless of time zone or availability for meetings
+- For synchronous meetings (videoconference or in-person), facilitators commit to present written representations from those who cannot attend (assuming agreement in advance due to circumstances). This practice respects different timezones and circumstances, and is offered as a collaborative courtesy rather than a formal service.
+- The community [Discord](https://discord.gg/RkqKnmrp) offers a fast way to ask questions, or discuss topic items in real-time.
 
 ## Specification Changes
 
