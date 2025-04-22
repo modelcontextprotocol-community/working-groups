@@ -105,7 +105,25 @@ Working Groups have open membership, and often span multiple topics. We want to 
 
 The ground rules are intended to facilitate this without being too formal.
 
-[TODO] -- Short note here about basics e.g. Each w.g. has a regular co-ordination meeting, sub-topics free to organise as appropriate with different approaches and timescales. WG has a "host" and [facilitators](#the-ideal-topic-facilitator). Add guide about facilitator volunteering and selection.
+### Topic Areas
+
+Working Groups typically cover a range of related topics. For example, the "Hosting" group may examine "Multi-Tenancy," "Transport Configuration," "Scaling Patterns," and more.
+
+Topic areas naturally develop different characteristics based on community needs and participant expertise:
+
+- **Varying Structure**: Some Topic Areas may choose more formal processes to meet industry deadlines or compliance requirements, while others thrive with exploratory approaches and proof-of-concept experimentation.
+
+- **Community-Driven Priorities**: The urgency, depth, and focus given to each topic reflects the interests and contributions of active participants.
+
+This diversity of approaches enables the community to address both immediate implementation challenges and longer-term protocol evolution simultaneously.
+
+#### Examples:
+
+| Topic Area                          | Typical Approach                                           | Community Focus                                                  |
+| ----------------------------------- | ---------------------------------------------------------- | ---------------------------------------------------------------- |
+| Agent Interaction Patterns          | Exploratory research with proof-of-concept implementations | Understanding emerging patterns before standardization           |
+| Regulatory Compliance Requirements  | Structured development with defined milestones             | Meeting industry deadlines while ensuring protocol compatibility |
+| Container Deployment Configurations | Collaborative documentation of tested implementations      | Sharing practical hosting solutions across environments          |
 
 ### Process vs Content
 
@@ -113,17 +131,14 @@ Working Group activities are separated into two distinct types of discussions:
 
 **Process Meetings** focus on coordination, planning, and governance:
 
-- The main Working Group meeting is primarily for Process
-- Process meetings are about _how_ the group operates
-- Facilitators are appointed for subtopic areas in these meetings
-- We agree/reject Working Group Topics and set direction
-- We coordinate across various subtopics and with other working groups
+- Each Working Group has a coordination meeting about **_how_** the group operates
+- [Topic Facilitators](#the-ideal-topic-facilitator) are identified based on community interest and expertise
+- We agree Working Group Topics, and coordinate if necessary with other working groups.
 
-**Content Meetings** focus on technical substance:
+**Content Meetings** focus on the technical substance:
 
-- Detailed technical discussions happen in Content meetings
-- Content meetings explore _what_ the group is working on
-- These meetings allow for deeper dives into specific problems
+- Content meetings explore **_what_** the group is working on
+- Detailed technical discussions should happen in Content meetings, this repository or discord.
 - Dedicated time for subject matter experts to contribute
 
 | Process Example                                                     | Content Example                                                  |
@@ -131,10 +146,9 @@ Working Group activities are separated into two distinct types of discussions:
 | Scheduling technical deep-dive sessions with subject matter experts | Developing best practices for securing transport connections     |
 | Establishing guidelines for reviewing working group artifacts       | Creating reference configurations for cloud hosting environments |
 | Coordinating the roadmap for specification change proposals         | Designing patterns for error handling across transport types     |
-| Determining which subtopics need facilitators                       | Exploring the technical details of multi-tenancy implementation  |
-| Agreeing timelines and deliverables for the working group           | Evaluating proposed protocol extensions with proof-of-concept    |
+| Agreeing timelines and expected outputs for the working group       | Evaluating proposed protocol extensions with proof-of-concept    |
 
-Each topic area should nominate a _Facilitator_ to help arrange the meetings and coordinate group discussions. Facilitators ensure that:
+Each topic area should nominate a [_Facilitator_](#the-ideal-topic-facilitator) to help arrange necessary meetings and coordinate group discussions. Facilitators ensure that:
 
 - Meetings have clear agendas
 - Technical discussions have dedicated space
