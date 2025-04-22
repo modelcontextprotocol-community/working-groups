@@ -52,11 +52,60 @@ Each component serves a different purpose:
 
 This layered approach allows MCP to provide standardization where needed while encouraging innovation and flexibility in application design. Working Groups play a crucial role in balancing these priorities, contributing to all layers while respecting their different purposes and impact scopes.
 
+### Specification Changes
+
+The barrier for specification changes is intentionally high due to the cascading impact on implementers. Changes should be:
+
+1. **Well-justified**: Addressing a genuine gap or limitation that impacts the feasibility, viability or sustainability of deployments.
+2. **Practice-proven**: Demonstrated in real implementations before formalization
+3. **Widely beneficial**: Serving the broader community, not just specific vendors
+
+> **Cascading Impact Principle**: Changes at higher layers in the MCP hierarchy necessitate corresponding updates in lower layers. This cascading effect is why there are different barriers to change - the higher in the stack, the more widespread the impact.
+
+### When to Update Different Artifacts
+
+| Artifact Type                                      | When to Update                                                                                                                                                    | Barrier to Change                                                                                               |
+| -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| **Specification**                                  | Only when necessary to enable core functionality or address critical limitations that impact the feasibility or viability of implementations across the ecosystem | High - requires demonstrated community need and proven implementation examples                                  |
+| **Reference SDKs - Specification Alignment**       | When necessary to maintain compliance with specification changes or to implement standardized patterns across all SDK languages                                   | High - requires strict adherence to the specification, interoperability testing and cross-SDK consistency       |
+| **Reference SDKs - Language-Specific Innovations** | When implementing idiomatic patterns, optimizations, or extensions that improve developer experience within a specific language ecosystem                         | Medium - requires demonstrated utility within the language community while maintaining specification compliance |
+| **Supporting Resources**                           | To improve onboarding experience, clarify implementation guidance, or document new patterns that emerge from the community                                        | Medium - requires validation from multiple implementers                                                         |
+| **Working Group Artefacts**                        | To share emerging patterns, experimental approaches, and implementation guidance that may eventually influence higher layers                                      | Low - encourages innovation and collaboration                                                                   |
+
+Working Groups should assess whether a proposed change is best suited as:
+
+- A specification change (highest impact, highest barrier)
+- A Reference SDK specification alignment change (high impact, high barrier)
+- A Reference SDK language-specific innovation (high impact, medium barrier)
+- A Supporting Resource update (medium impact, medium barrier)
+- Working Group artefact (lowest impact, lowest barrier)
+
+Working groups should favor evolutionary improvement through:
+
+- Establishing patterns in Working Group artefacts first
+- Implementing and testing approaches before updating Supporting Resources
+- Promoting to Reference SDKs as language-specific innovations after demonstrated value within a language ecosystem
+- Standardizing successful language-specific innovations across all Reference SDKs when proven valuable in multiple contexts
+- Inclusion in the specification only when proven essential for ecosystem interoperability
+
+> **Example**: A new authentication mechanism might start as documentation in Working Group artefacts, then become a language-specific innovation in one Reference SDK. If successful, it could be standardized across all SDKs, with corresponding Supporting Resources created. Only after proving its value across multiple implementations would it be considered for inclusion in the specification itself, which would then trigger updates to all layers below.
+
+### Decision Making
+
+Working groups should aim for consensus-driven decisions:
+
+- Manage by objection rather than requiring unanimous enthusiasm
+- "Yes, and..." approaches over "No, but..." resistance
+- Experimentation is preferred over speculation: demonstrate capabilities rather than debate theoretical approaches
+- Clearly identify goals for topic areas (e.g. is the aim to agree common patterns, or change the spec?)
+
 ## Working Group Conduct
 
 Working Groups have open membership, and often span multiple topics. We want to make sure that all who wish to contribute have the right forums and opportunities to do so.
 
 The ground rules are intended to facilitate this without being too formal.
+
+[TODO] -- Short note here about basics e.g. Each w.g. has a regular co-ordination meeting, sub-topics free to organise as appropriate with different approaches and timescales. WG has a "host" and facilitators. Add guide about facilitator volunteering and selection.
 
 ### Process vs Content
 
@@ -143,54 +192,6 @@ Working groups enable diverse participation through multiple contribution channe
 - Members are expected to contribute to these repositories asynchronously, allowing for participation regardless of time zone or availability for meetings
 - For synchronous meetings (videoconference or in-person), facilitators commit to present written representations from those who cannot attend (assuming agreement in advance due to circumstances). This practice respects different timezones and circumstances, and is offered as a collaborative courtesy rather than a formal service.
 - The community [Discord](https://discord.gg/RkqKnmrp) offers a fast way to ask questions, or discuss topic items in real-time.
-
-## Specification Changes
-
-The barrier for specification changes is intentionally high due to the cascading impact on implementers. Changes should be:
-
-1. **Well-justified**: Addressing a genuine gap or limitation that impacts the feasibility, viability or sustainability of deployments.
-2. **Practice-proven**: Demonstrated in real implementations before formalization
-3. **Widely beneficial**: Serving the broader community, not just specific vendors
-
-> **Cascading Impact Principle**: Changes at higher layers in the MCP hierarchy necessitate corresponding updates in lower layers. This cascading effect is why there are different barriers to change - the higher in the stack, the more widespread the impact.
-
-### When to Update Different Artifacts
-
-| Artifact Type                                      | When to Update                                                                                                                                                    | Barrier to Change                                                                                               |
-| -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
-| **Specification**                                  | Only when necessary to enable core functionality or address critical limitations that impact the feasibility or viability of implementations across the ecosystem | High - requires demonstrated community need and proven implementation examples                                  |
-| **Reference SDKs - Specification Alignment**       | When necessary to maintain compliance with specification changes or to implement standardized patterns across all SDK languages                                   | High - requires strict adherence to the specification, interoperability testing and cross-SDK consistency       |
-| **Reference SDKs - Language-Specific Innovations** | When implementing idiomatic patterns, optimizations, or extensions that improve developer experience within a specific language ecosystem                         | Medium - requires demonstrated utility within the language community while maintaining specification compliance |
-| **Supporting Resources**                           | To improve onboarding experience, clarify implementation guidance, or document new patterns that emerge from the community                                        | Medium - requires validation from multiple implementers                                                         |
-| **Working Group Artefacts**                        | To share emerging patterns, experimental approaches, and implementation guidance that may eventually influence higher layers                                      | Low - encourages innovation and collaboration                                                                   |
-
-The working group should assess whether a proposed change is best suited as:
-
-- A specification change (highest impact, highest barrier)
-- A Reference SDK specification alignment change (high impact, high barrier)
-- A Reference SDK language-specific innovation (high impact, medium barrier)
-- A Supporting Resource update (medium impact, medium barrier)
-- Working Group artefact (lowest impact, lowest barrier)
-
-Working groups should favor evolutionary improvement through:
-
-- Establishing patterns in Working Group artefacts first
-- Implementing and testing approaches before updating Supporting Resources
-- Promoting to Reference SDKs as language-specific innovations after demonstrated value within a language ecosystem
-- Standardizing successful language-specific innovations across all Reference SDKs when proven valuable in multiple contexts
-- Inclusion in the specification only when proven essential for ecosystem interoperability
-
-> **Example**: A new authentication mechanism might start as documentation in Working Group artefacts, then become a language-specific innovation in one Reference SDK. If successful, it could be standardized across all SDKs, with corresponding Supporting Resources created. Only after proving its value across multiple implementations would it be considered for inclusion in the specification itself, which would then trigger updates to all layers below.
-
-## Decision Making
-
-Working groups should aim for consensus-driven decisions:
-
-- Manage by objection rather than requiring unanimous enthusiasm
-- "Yes, and..." approaches over "No, but..." resistance
-- Experimentation is preferred over speculation
-- Clearly identify goals for subtopic areas (e.g. is the aim to agree common patterns, or change the spec?)
-- Demonstrate capabilities rather than debate theoretical approaches
 
 ---
 
