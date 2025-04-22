@@ -1,4 +1,4 @@
-# Welcome to the MCP Community Working Groups
+# Welcome - MCP Community Working Groups
 
 <!-- ![MCPWGLogo](images/mcp-wg-icon_small.png) -->
 
@@ -11,11 +11,13 @@ Welcome to the MCP Community Working Group Repository.
 
 ## Getting Started
 
-1. Read the [Charter](working_group_charter.md) for information about how the Working Groups operations.
+1. Read below for information about how the Working Groups operate.
 2. Join us on the [Discord](https://discord.gg/RkqKnmrp) chat.
 3. Send a request to join either on Discord or by raising an [Issue](https://github.com/evalstate/mcp-community-group/issues) here, and begin contributing.
 
-All content added to this repository is under the MIT License. If you are unsure if you are able to include contribute content under that license, please contact one of the group administrators for advice.
+All content added to this repository is contributed under the MIT License.
+
+If you are unsure if you are able to include content under that license, please contact one of the group administrators for advice.
 
 ## Working Groups
 
@@ -87,8 +89,6 @@ Working groups should favor evolutionary improvement through:
 - Promoting to Reference SDKs as language-specific innovations after demonstrated value within a language ecosystem
 - Standardizing successful language-specific innovations across all Reference SDKs when proven valuable in multiple contexts
 - Inclusion in the specification only when proven essential for ecosystem interoperability
-
-> **Example**: A new authentication mechanism might start as documentation in Working Group artefacts, then become a language-specific innovation in one Reference SDK. If successful, it could be standardized across all SDKs, with corresponding Supporting Resources created. Only after proving its value across multiple implementations would it be considered for inclusion in the specification itself, which would then trigger updates to all layers below.
 
 ### Decision Making
 
