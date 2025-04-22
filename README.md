@@ -8,6 +8,7 @@ Welcome to the MCP Community Working Group Repository.
 
 > [!NOTE]
 > This repository is for Community Working Group Collaboration.
+> 
 > Questions and Discussions on the MCP should be conducted in the appropriate [Model Context Protocol](https://github.com/modelcontextprotocol) repository.
 
 ## Getting Started
