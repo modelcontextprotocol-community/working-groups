@@ -1,9 +1,13 @@
-# Welcome to the MCP Community Working Groups 
+# Welcome to the MCP Community Working Groups
+
+![MCPWGLogo](images/mcp-wg-icon_small.png)
 
 Welcome to the MCP Community Working Group Repository.
+
 [TODO - add friendlier welcome text]
 
-**NB** - This repository is for Community Working Group Collaboration. Questions and Discussions on the MCP should be conducted in the appropriate [ModelContextProtocol Repository](https://github.com/modelcontextprotocol) repository.
+> [!NOTE]
+> This repository is for Community Working Group Collaboration. Questions and Discussions on the MCP should be conducted in the appropriate [Model Context Protocol Repository](https://github.com/modelcontextprotocol) repository.
 
 ## Getting Started
 
@@ -19,4 +23,4 @@ All content added to this repository is under the MIT License. If you are unsure
 - The Authorisation Working Group (/wg/auth)
 - The Agent Working Group (/wg/agent)
 - Search, Tools, Emerging Group (wg/misc)
-[TODO - do we bring the charter here, remove the working groups from the charter or maintain both?]
+  [TODO - do we bring the charter here, remove the working groups from the charter or maintain both?]
