@@ -13,9 +13,9 @@ Welcome to the MCP Community Working Group Repository.
 
 ## Getting Started
 
-1. Read below for information about how the Working Groups operate.
+1. Read the [Model Context Protocol specification](https://modelcontextprotocol.io/specification/2025-03-26)
 2. Join us on the [Discord](https://discord.gg/RkqKnmrp) chat.
-3. Send a request to join either on Discord or by raising an [Issue](https://github.com/evalstate/mcp-community-group/issues) here, and begin contributing.
+3. Start contributing to open conversations or start new topics in [#working-group-ideation](https://discord.com/channels/1358869848138059966/1358872476276232242).
 
 All content added to this repository is contributed under the MIT License.
 
