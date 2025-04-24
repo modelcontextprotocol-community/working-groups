@@ -4,8 +4,6 @@
 
 Welcome to the MCP Community Working Group Repository.
 
-<!-- [TODO - add friendlier welcome text] -->
-
 > [!NOTE]
 > This repository is for Community Working Group Collaboration.
 > 
@@ -16,6 +14,10 @@ Welcome to the MCP Community Working Group Repository.
 1. Read the [Model Context Protocol specification](https://modelcontextprotocol.io/specification/2025-03-26)
 2. Join us on the [Discord](https://discord.gg/RkqKnmrp) chat.
 3. Start contributing to open conversations or start new topics in [#working-group-ideation](https://discord.com/channels/1358869848138059966/1358872476276232242).
+
+A common route to generating a high quality change to the Specification will be to 
+- Start a thread on the Model Context Protocol [discussion forum](https://github.com/orgs/modelcontextprotocol/discussions).
+- Discuss it with others on [Discord](https://discord.gg/RkqKnmrp) and relevant Working Group forums for refinement
 
 All content added to this repository is contributed under the MIT License.
 
