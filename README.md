@@ -1,23 +1,34 @@
 # Welcome - MCP Community Working Groups
 
-<!-- ![MCPWGLogo](images/mcp-wg-icon_small.png) -->
+![MCPWGLogo](images/mcp-wg-icon_small.png)
 
-Welcome to the MCP Community Working Group Repository.
+Welcome to the Model Context Protocol (MCP) Community Working Group (CWG) Repository.
 
 > [!NOTE]
-> This repository is for Community Working Group Collaboration.
+> This repository is for collaboration among MCP CWG members.
 > 
-> Questions and Discussions on the MCP should be conducted in the appropriate [Model Context Protocol](https://github.com/modelcontextprotocol) repository.
+> If you are not part of the MCP CWG Discord, you are probably in the wrong place.
+> 
+> General questions and discussions on MCP should be conducted in the appropriate official [Model Context Protocol repositories](https://github.com/modelcontextprotocol).
 
 ## Getting Started
 
-1. Read the [Model Context Protocol specification](https://modelcontextprotocol.io/specification/2025-03-26)
-2. Join us on the [Discord](https://discord.gg/RkqKnmrp) chat.
-3. Start contributing to open conversations or start new topics in [#working-group-ideation](https://discord.com/channels/1358869848138059966/1358872476276232242).
+The MCP CWG community is for MCP community members who have been using and engaging with MCP, and want to contribute to advancing the procotol by contributing specification improvements, conventions, and best practices.
 
-A common route to generating a high quality change to the Specification will be to 
-- Start a thread on the Model Context Protocol [discussion forum](https://github.com/orgs/modelcontextprotocol/discussions).
-- Discuss it with others on [Discord](https://discord.gg/RkqKnmrp) and relevant Working Group forums for refinement
+To get started:
+
+1. Read the [Model Context Protocol specification](https://modelcontextprotocol.io/specification)
+2. Engage with the protocol and your use cases to build familiarity with its capabilities and scope
+2. Join us on the [CWG Discord](https://discord.gg/RkqKnmrp) chat.
+3. Start contributing to open conversations or suggest new topic areas in the [#working-group-ideation](https://discord.com/channels/1358869848138059966/1358872476276232242) channel.
+
+A common route to generating a high quality contribution to the Specification will be to 
+1. Ensure there is no pre-existing CWG work on your contribution idea
+2. Raise it for discussion with others on the CWG Discord
+3. Coordinate with the CWG Discord moderators to get your initiative added to the [CWG Project Tracker](https://github.com/orgs/modelcontextprotocol-community/projects/3/views/1)
+4. Start a thread on the official Model Context Protocol [discussion forum](https://github.com/orgs/modelcontextprotocol/discussions).
+5. Use the CWG Discord to refine thinking and request community engagement with your Discussion, optionally including collaboration on artifacts in this `working-groups` repository
+6. Finally, open a Pull Request on the relevant official MCP repository explaining the collaboration that has occurred to date for review by the MCP core team
 
 All content added to this repository is contributed under the MIT License.
 
@@ -35,17 +46,14 @@ Working Groups normally have 2 complimentary goals:
 
 ### Current Working Groups
 
-- **Hosting**: ([wg/host](wg/host)) Exploring deployment, scaling, and infrastructure considerations.
-- **Agents**: Focused on interaction patterns between agents using MCP.
-- **Authorization**: Addressing security and access control within MCP implementations.
-- **Search, Tools, Emerging Topics** ([wg/misc]) Focussed discussions on Protocol ideas and changes.
+See channels in Discord under the category `Community Working Groups`.
 
 ## Working with the Model Context Protocol
 
 MCP serves as an enabler for innovative LLM application development, providing interoperability without being prescriptive about application design. The protocol consists of four main components:
 
-1. The [specification](https://modelcontextprotocol.io/specification/2025-03-26), defining the Protocol and Transports.
-2. [Reference SDKs](https://modelcontextprotocol.io/sdk/java/mcp-overview) that implement the Protocol and Transports to help developers build interoperable solutions.
+1. The [specification](https://modelcontextprotocol.io/specification), defining the Protocol and Transports.
+2. [Reference SDKs](https://modelcontextprotocol.io/sdk) that implement the Protocol and Transports to help developers build interoperable solutions.
 3. Supporting resources such as User Guides, Tutorials, Debugging Tools and Reference Applications.
 4. Working Group artifacts - implementation patterns, configuration guides, and other community-developed resources.
 
