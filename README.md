@@ -166,7 +166,7 @@ Topic Area [facilitators](#the-ideal-topic-facilitator) help arrange necessary m
 - Decision-making remains transparent
 - Experimentation is prioritized over speculation
 
-### Interests vs Positions
+### Interests vs Positions and Problem Validation
 
 Working groups are more productive when members focus on interests rather than positions. This distinction comes from principled negotiation techniques:
 
@@ -180,9 +180,12 @@ Working groups are more productive when members focus on interests rather than p
 | "Transport Y is the only acceptable solution for high-performance scenarios" | "We need transport options that can handle high-throughput, low-latency requirements" |
 | "The MCP SDK must support language Z"                                        | "Our development team needs accessible tooling that works with our technology stack"  |
 
-When discussions focus on interests:
+Working Groups should also maintain a strong focus on addressing concrete problems faced by MCP implementers. All proposals should clearly articulate "What specific problem does this solve?" including examples of real-world implementation challenges.
+
+When discussions focus on interests and validated problems:
 
 - More creative solutions emerge
+- Solutions address real implementation challenges rather than theoretical concerns
 - Multiple interests can often be satisfied simultaneously
 - The real priorities become transparent
 - Collaboration improves as participants understand each other's needs
