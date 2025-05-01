@@ -190,7 +190,11 @@ When discussions focus on interests and validated problems:
 - The real priorities become transparent
 - Collaboration improves as participants understand each other's needs
 
-> Example: Instead of arguing "We must implement AWS-specific authentication", share "Our organization has invested heavily in AWS IAM and need compatible authentication options." This reveals the actual need without prescribing a single solution.
+> Example of position vs. interest: Instead of arguing "We must implement AWS-specific authentication", share "Our organization has invested heavily in AWS IAM and need compatible authentication options." This reveals the actual need without prescribing a single solution.
+
+> Example of problem validation: For a proposal about tool namespacing and search capabilities, validation would include specific examples of current approaches to tool organization from community members, including where existing methods fall short.  This should also include any available data or metrics quantifying the impact on reliable and efficient tool usage.
+
+
 
 ### Sharing vs Marketing
 
