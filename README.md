@@ -19,7 +19,7 @@ To get started:
 
 1. Read the [Model Context Protocol specification](https://modelcontextprotocol.io/specification)
 2. Engage with the protocol and your use cases to build familiarity with its capabilities and scope
-2. Join us on the [CWG Discord](https://discord.gg/RkqKnmrp) chat.
+2. Join us on the [CWG Discord](https://discord.gg/6CSzBmMkjX) chat.
 3. Start contributing to open conversations or suggest new topic areas in the [#working-group-ideation](https://discord.com/channels/1358869848138059966/1358872476276232242) channel.
 
 A common route to generating a high quality contribution to the Specification will be to 
@@ -223,7 +223,7 @@ Working groups enable diverse participation through multiple contribution channe
 - Working group artifacts are stored within this repository.
 - Members are expected to contribute to these repositories asynchronously, allowing for participation regardless of time zone or availability for meetings
 - For synchronous meetings (videoconference or in-person), facilitators commit to present written representations from those who cannot attend (assuming agreement in advance due to circumstances). This practice respects different timezones and circumstances, and is offered as a collaborative courtesy rather than a formal service.
-- The community [Discord](https://discord.gg/RkqKnmrp) offers a fast way to ask questions, or discuss topic items in real-time.
+- The community [Discord](https://discord.gg/6CSzBmMkjX) offers a fast way to ask questions, or discuss topic items in real-time.
 
 ### The Ideal Topic Facilitator
 
