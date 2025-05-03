@@ -48,6 +48,7 @@ theme:
     - navigation.indexes
     - navigation.tabs
   logo: images/mcp-wg-icon_small.png
+  favicon: images/mcp-wg-icon_small.png
   palette:
     - media: "(prefers-color-scheme)"
       primary: white
