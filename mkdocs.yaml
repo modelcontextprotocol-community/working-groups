@@ -1,0 +1,67 @@
+site_name: MCP Community Working Groups
+repo_url: https://github.com/modelcontextprotocol-community/working-groups
+plugins:
+  - search
+  - include_dir_to_nav
+  - offline
+  - tags
+  - mermaid2
+  - swagger-ui-tag
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - git-authors
+
+docs_dir: wg
+
+nav:
+  - Welcome: index.md
+  - Charter: working_group_charter.md
+  - MCP Hosting WG: hosting
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/modelcontextprotocol-community
+      name: GitHub
+  
+exclude_docs: |
+  _*.md
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+    - navigation.indexes
+    - navigation.tabs
+  logo: images/mcp-wg-icon_small.png
+  palette:
+    - media: "(prefers-color-scheme)"
+      primary: white
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  font:
+    text: "Roboto"
+    code: "Roboto Mono"
+
+extra_css:
+  - stylesheets/extra.css
