@@ -22,15 +22,3 @@ This document aims to provide a basis for evaluating the inclusion of new standa
 | Communication | Simplify client-server communication Handles 90% of the MCP use case with tools/list and tool/calls | |
 | Deployment | Can be deployed on the cloud easily. Compatibility with serverless functions | |
 | Flexibility | Choose between two modes. Best of both worlds | Implementation complexity on the server side |
-
-
-
-
-
-
-
-
-
-
-
-
