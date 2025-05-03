@@ -35,7 +35,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install mkdocs-material mkdocs-git-revision-date-localized-plugin mkdocs-git-authors-plugin mkdocs-mermaid2-plugin mkdocs-swagger-ui-tag
+          pip install -r requirements.txt
 
       - name: Build with MkDocs
         run: mkdocs build
