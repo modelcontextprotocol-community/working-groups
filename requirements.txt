@@ -7,3 +7,4 @@ mkdocs-git-authors-plugin~=0.1
 mkdocs-mermaid2-plugin~=1.1
 mkdocs-swagger-ui-tag~=0.6
 mkdocs-include-dir-to-nav~=1.2
+mkdocs-callouts~=1.16

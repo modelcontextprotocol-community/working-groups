@@ -3,6 +3,7 @@ repo_url: https://github.com/modelcontextprotocol-community/working-groups
 plugins:
   - search
   - include_dir_to_nav
+  - callouts
   - offline
   - tags
   - mermaid2
@@ -12,6 +13,12 @@ plugins:
   - git-authors
 
 docs_dir: wg
+
+markdown_extensions:
+  - nl2br
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 nav:
   - Welcome: index.md
