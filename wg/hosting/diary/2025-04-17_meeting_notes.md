@@ -1,6 +1,6 @@
 # **MCP Hosting Working Group (WG) \- Meeting Notes**
 
-**WG proposal:** [MCP Hosting Working Group (WG) – Vision & Roadmap](../)  
+**WG proposal:** [MCP Hosting Working Group (WG) – Vision & Roadmap](../README.md)  
 **Chairs:** TBD  
 **Discord:** [https://discord.com/invite/dV44HsCKwh](https://discord.com/invite/dV44HsCKwh)  
 **Google group for shared invitations:** [https://groups.google.com/g/mcp-hosting-wg](https://groups.google.com/g/mcp-hosting-wg)
@@ -14,7 +14,7 @@ Suggested agenda:
 - Access to documents and meeting notes
 - Receive calendar invites for recurring meetings
 - Review & discuss WG proposal/scope/charter
-  - [MCP Hosting Working Group (WG) – Vision & Roadmap](../)
+  - [MCP Hosting Working Group (WG) – Vision & Roadmap](../README.md)
   - Should we reduce the scope of work, given that some areas are already covered by other Community Working Groups?
     - Transports:
       - It's a good idea to share/open source non-standard implementations \- and a potential way for hosting implementors to value-add.
@@ -38,7 +38,7 @@ Suggested agenda:
 - Community Working Groups
   1. **[\[Public\] MCP CWG Discord Charter](https://docs.google.com/document/d/1wwniFi4IfXx0FwOdutbDp1-An7LHSygDHt8vqZHTRgM/edit?usp=sharing)**
 - Hosting Working Group Introductions
-- Review & discuss WG proposal/scope/charter ([MCP Hosting Working Group (WG) – Vision & Roadmap](../))
+- Review & discuss WG proposal/scope/charter ([MCP Hosting Working Group (WG) – Vision & Roadmap](../README.md))
 - Agree on communication channels
 - Discuss initial roadmap themes & priorities
   1. Multi-tenancy
