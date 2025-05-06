@@ -22,7 +22,6 @@ markdown_extensions:
 
 nav:
   - Welcome: index.md
-  - Charter: working_group_charter.md
   - MCP Hosting WG: hosting
 
 extra:
