@@ -1,1 +1,0 @@
-../working_group_charter.md
