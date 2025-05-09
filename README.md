@@ -227,7 +227,7 @@ Working groups enable diverse participation through multiple contribution channe
 
 ### Using AI Tools for Contribution and Collaboration
 
-When using AI for generating meeting notes or transcription, we recommend that groups agree on a tool preference to avoid adding noise or raising privacy concerns.  For example, the Hosting Working Group only uses Gemini for meeting transcription and summarization, where transcriptions are only shared among WG members.
+When using AI for generating meeting notes or transcription, we recommend that groups agree on a single tool to avoid adding noise or raising privacy concerns.  For example, the Hosting Working Group only uses Gemini for meeting transcription and summarization, where transcriptions are only shared among WG members.
 
 ### The Ideal Topic Facilitator
 
