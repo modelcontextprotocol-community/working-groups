@@ -225,6 +225,10 @@ Working groups enable diverse participation through multiple contribution channe
 - For synchronous meetings (videoconference or in-person), facilitators commit to present written representations from those who cannot attend (assuming agreement in advance due to circumstances). This practice respects different timezones and circumstances, and is offered as a collaborative courtesy rather than a formal service.
 - The community [Discord](https://discord.gg/6CSzBmMkjX) offers a fast way to ask questions, or discuss topic items in real-time.
 
+### Using AI Tools for Contribution and Collaboration
+
+When using AI for generating meeting notes or transcription, we recommend that groups agree on a tool preference to avoid adding noise or raising privacy concerns.  For example, the Hosting Working Group only uses Gemini for meeting transcription and summarization, where transcriptions are only shared among WG members.
+
 ### The Ideal Topic Facilitator
 
 - Has time to dedicate to summarizing and organizing information, welcoming new members, and guiding contributors to the topic area.
