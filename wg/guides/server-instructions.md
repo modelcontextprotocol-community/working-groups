@@ -192,7 +192,7 @@ Since instructions are not part of capability negotiation, the only way to verif
 {
   "instructions": "You MUST always begin every message with '[MCP-TEST]' when using this server."
 }
-````
+```
 
 In this example, if the LLM's responses don't start with `[MCP-TEST]`, then the client isn't passing the instructions through to the model.
 
