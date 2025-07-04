@@ -306,4 +306,4 @@ The MCP community is exploring:
 
 This guide was sourced from valuable input from the MCP community. Special thanks to: Harald Kirschner (VS Code), Tadas (PulseMCP), toby, msfeldstein (Cursor), alexjhancock, evalstate, jesselumarie, and Nick. Additional insights were incorporated from MCP Steering Committee meetings on 5/23/2025.
 
-**Specification Version**: This guide is based on the MCP `2025-06-??` specification. For the latest specification updates, please refer to the [official MCP documentation](https://modelcontextprotocol.io/specification).
+**Specification Version**: This guide is based on the MCP `2025-06-18` specification. For the latest specification updates, please refer to the [official MCP documentation](https://modelcontextprotocol.io/specification).
